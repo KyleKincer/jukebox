@@ -4142,4 +4142,4 @@ add(4942, bz, f)
 packet = {}
 packet.command = 'queue'
 packet.song = song
-rednet.broadcast(packet, 'JBPP')
+rednet.broadcast(packet, 'JBP')

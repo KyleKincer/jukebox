@@ -4197,4 +4197,4 @@ song.samples[5370].noteEvents[#song.samples[5370].noteEvents+1] = { note='B2', i
 packet = {}
 packet.command = 'queue'
 packet.song = song
-rednet.broadcast(packet, 'JBPP')
+rednet.broadcast(packet, 'JBP')
