@@ -5973,3 +5973,8 @@ add(5246, ab, b)
 add(5272, bo, f)
 add(5272, bc, g)
 add(5272, bg, g)
+
+packet = {}
+packet.command = 'queue'
+packet.song = song
+rednet.broadcast(packet, 'JBP')
