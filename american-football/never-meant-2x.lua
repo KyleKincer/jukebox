@@ -100,7 +100,7 @@ for i = 1, 4714, 1 do
     song.samples[i].noteEvents = {}
 end
 
-add(0, ab, b)
+add(1, ab, b)
 add(8, ab, b)
 add(17, ab, b)
 add(25, ab, b)
