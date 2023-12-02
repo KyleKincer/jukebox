@@ -95,7 +95,7 @@ song = {}
 song.name = 'american-football-never-meant'
 song.samples = {}
 
-for i = 1, 9433, 1 do
+for i = 1, 4714, 1 do
     song.samples[i] = {}
     song.samples[i].noteEvents = {}
 end
